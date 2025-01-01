@@ -5,7 +5,7 @@ const Menu = [
 const Section_2 = () => {
   return (
     <div>
-      <div className=" flex items-center justify-center">
+      <div className=" flex items-center justify-center container mx-auto px-5">
         <SectionHead title={"FROM OUR MENU"} subtitle={"---Check it out---"} />
       </div>
       <div className=" container mx-auto pb-10 px-5 mt-10">
@@ -37,6 +37,9 @@ const Section_2 = () => {
            }
 
      
+        </div>
+        <div className=" flex items-center justify-center mt-8">
+            <button className=" border-b-4 shadow-md font-semibold hover:scale-110 active:scale-100 px-8 max-md:px-5 max-sm:px-3 py-4 rounded-lg">VIEW FULL MENU</button>
         </div>
         {/* --- */}
       </div>

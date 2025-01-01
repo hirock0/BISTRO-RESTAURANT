@@ -66,7 +66,7 @@ const Section_1 = () => {
   return (
     <div>
       <div className="">
-        <div className=" flex justify-center items-center py-5">
+        <div className=" flex justify-center items-center py-5 container mx-auto px-5">
           <SectionHead
             subtitle={"--From 10 A.M to 11 P.M ---"}
             title={"ORDER ONLINE"}
