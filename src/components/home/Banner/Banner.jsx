@@ -15,19 +15,27 @@ const Banner = () => {
   const images = [
     {
       id: 0,
-      image: "/assets/home/01.jpg",
+      image: "https://i.ibb.co.com/NYq8ZMG/01.jpg",
     },
     {
       id: 1,
-      image: "/assets/home/02.jpg",
+      image: "https://i.ibb.co.com/fpSpm9r/02.jpg",
     },
     {
       id: 2,
-      image: "/assets/home/03.png",
+      image: "https://i.ibb.co.com/t8nRtcC/03.png",
     },
     {
       id: 3,
-      image: "/assets/home/04.jpg",
+      image: "https://i.ibb.co.com/TT0JtNT/04.jpg",
+    },
+    {
+      id: 4,
+      image: "https://i.ibb.co.com/bFngj1d/05.png",
+    },
+    {
+      id: 5,
+      image: "https://i.ibb.co.com/cxSHKJt/06.png",
     },
   ];
 

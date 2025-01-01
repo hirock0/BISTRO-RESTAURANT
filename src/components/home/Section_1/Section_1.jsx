@@ -16,56 +16,39 @@ const products = [
     id: 2,
     name: "Burger",
     price: 10,
-    image: "/assets/home/slide1.jpg",
+    image: "https://i.ibb.co.com/09ZvW8N/slide1.jpg",
   },
   {
     id: 3,
     name: "Burger",
     price: 10,
-    image: "/assets/home/slide2.jpg",
+    image: "https://i.ibb.co.com/G0WkRZH/slide2.jpg",
   },
   {
     id: 4,
     name: "Burger",
     price: 10,
-    image: "/assets/home/slide3.jpg",
+    image: "https://i.ibb.co.com/CbSwMwG/slide3.jpg",
   },
   {
     id: 5,
     name: "Burger",
     price: 10,
-    image: "/assets/home/slide4.jpg",
+    image: "https://i.ibb.co.com/BZJfxBp/slide4.jpg",
   },
   {
     id: 6,
     name: "Burger",
     price: 10,
-    image: "/assets/home/slide5.jpg",
-  },
-  {
-    id: 7,
-    name: "Burger",
-    price: 10,
-    image: "/assets/home/slide5.jpg",
-  },
-  {
-    id: 8,
-    name: "Burger",
-    price: 10,
-    image: "/assets/home/slide5.jpg",
-  },
-  {
-    id: 9,
-    name: "Burger",
-    price: 10,
-    image: "/assets/home/slide5.jpg",
-  },
+    image: "https://i.ibb.co.com/09ZvW8N/slide1.jpg",
+  }
+  
 ];
 
 const Section_1 = () => {
   return (
     <div>
-      <div className="">
+      <div className=" mt-10">
         <div className=" flex justify-center items-center py-5 container mx-auto px-5">
           <SectionHead
             subtitle={"--From 10 A.M to 11 P.M ---"}
@@ -109,7 +92,7 @@ const Section_1 = () => {
         {/* ---------- */}
         <div className="container mx-auto px-5 pb-10">
           <div className=" relative flex justify-center items-center h-96 ">
-            <img src="/assets/home/chef-service.jpg" alt="chef" className=" h-full w-full object-cover" />
+            <img src="https://i.ibb.co.com/f9PZG7S/chef-service.jpg" alt="chef" className=" h-full w-full object-cover" />
             <div className=" absolute flex items-center justify-center bg-white overflow-hidden w-4/6 max-md:w-5/6 h-4/6 max-md:h-5/6  text-center">
               <div className=" p-5 max-sm:p-2">
                 <h1 className=" text-4xl max-lg:text-3xl max-sm:text-2xl font-semibold mb-2">BISTRO BOSSS</h1>
