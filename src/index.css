@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active{
+  @apply hover:underline underline-offset-8 decoration-2 decoration-blue-500;
+}
+.main-swiper img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.thumbs-swiper img {
+  cursor: pointer;
+  border-radius: 5px;
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+
+.thumbs-swiper .swiper-slide-thumb-active img {
+  opacity: 1;
+  border: 2px solid #007bff;
+}
