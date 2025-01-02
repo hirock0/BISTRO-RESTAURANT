@@ -11,7 +11,6 @@ import SlideCards from "../../SlideCards/SlideCards";
 
 const Banner = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
-  console.log(thumbsSwiper);
   const images = [
     {
       id: 0,
