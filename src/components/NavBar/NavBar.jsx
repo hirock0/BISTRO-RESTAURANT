@@ -18,7 +18,7 @@ const NavBar = () => {
             <NavLink to="/" className="">
               HOME
             </NavLink>
-            <NavLink to="/" className="">
+            <NavLink to="/contact_us" className="">
               CONTACT US
             </NavLink>
             <NavLink to="/" className="">
@@ -27,7 +27,7 @@ const NavBar = () => {
             <NavLink to="/our_menu" className="">
               OUR MENU
             </NavLink>
-            <NavLink to="/" className="">
+            <NavLink to="/our_shop" className="">
               OUR SHOP
             </NavLink>
           </div>
@@ -42,7 +42,7 @@ const NavBar = () => {
             <NavLink to="/" className="">
               HOME
             </NavLink>
-            <NavLink to="/" className="">
+            <NavLink to="/contact_us" className="">
               CONTACT US
             </NavLink>
             <NavLink to="/" className="">
@@ -51,12 +51,12 @@ const NavBar = () => {
             <NavLink to="/our_menu" className="">
               OUR MENU
             </NavLink>
-            <NavLink to="/" className="">
+            <NavLink to="/our_shop" className="">
               OUR SHOP
             </NavLink>
           </div>
           {/* ------- */}
-          <Link to="/" className="">
+          <Link to="/login" className="">
             LOGIN
           </Link>
           <button

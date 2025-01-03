@@ -40,7 +40,7 @@ const FoodCard = () => {
       </div>
       <div className=" bg-[url(https://i.ibb.co.com/f9PZG7S/chef-service.jpg)] bg-center bg-cover bg-no-repeat h-96 max-md:h-80">
         <div className=" container mx-auto px-5 w-full flex items-center justify-center h-full">
-          <div className=" p-5 backdrop:filter backdrop-blur-lg text-white w-5/6 h-56 text-center flex flex-col items-center justify-center">
+          <div className=" p-5 bg-slate-800/50 text-white w-5/6 h-56 text-center flex flex-col items-center justify-center">
             <h1 className=" text-4xl max-md:text-3xl max-sm:text-2xl font-semibold">DESSERTS</h1>
             <p className=" mt-5">
               Lorem Ipsum has been the industry’s standard dummy text ever since

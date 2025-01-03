@@ -56,7 +56,7 @@ const Section_1 = () => {
           />
         </div>
         <div className=" pb-10">
-          <div className=" container mx-auto px-5 ">
+          <div className=" container mx-auto px-5 bg-zinc-100 py-5 ">
             <Swiper
               slidesPerView={1}
               spaceBetween={30}
