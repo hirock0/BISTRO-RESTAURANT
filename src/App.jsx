@@ -17,7 +17,7 @@ const App = () => {
       <section>
         <Section_2 />
       </section>
-      <div className="  container mx-auto h-52 px-5 my-10 text-white bg-black flex items-center justify-center">
+      <div data-aos="fade-up" className="  container mx-auto h-52 px-5 my-10 text-white bg-black flex items-center justify-center">
         <h1 className=" text-5xl max-lg:text-4xl max-md:text-3xl max-sm:text-xl">
           Call Us: +88001700554293
         </h1>

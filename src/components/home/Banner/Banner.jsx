@@ -40,7 +40,7 @@ const Banner = () => {
 
   return (
     <div className="">
-      <div className=" fixed z-50 top-0 right-0 left-0 text-white backdrop:filter backdrop-blur-sm">
+      <div className=" fixed z-50 top-0 right-0 left-0 text-white backdrop:filter backdrop-blur-sm bg-slate-800/50">
         <NavBar />
       </div>
       {/* Main Gallery */}

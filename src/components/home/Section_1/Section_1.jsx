@@ -96,7 +96,7 @@ const Section_1 = () => {
             <div className=" absolute flex items-center justify-center bg-white overflow-hidden w-4/6 max-md:w-5/6 h-4/6 max-md:h-5/6  text-center">
               <div className=" p-5 max-sm:p-2">
                 <h1 className=" text-4xl max-lg:text-3xl max-sm:text-2xl font-semibold mb-2">BISTRO BOSSS</h1>
-                <p className=" w-5/6 max-md:w-full mx-auto">
+                <p data-aos="fade-up" className=" w-5/6 max-md:w-full mx-auto">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Expedita accusantium possimus repudiandae sit quas delectus in
                   labore, voluptatum nulla itaque facilis, iure repellat eum

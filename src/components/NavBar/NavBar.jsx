@@ -11,7 +11,10 @@ const NavBar = () => {
           <h2 className=" tracking-widest font-extrabold">RESTAURANT</h2>
         </div>
         <div className=" flex items-center gap-5">
-          <div className=" flex items-center gap-5 max-md:hidden">
+          <div
+            data-aos="fade-down"
+            className=" flex items-center gap-5 max-md:hidden"
+          >
             <NavLink to="/" className="">
               HOME
             </NavLink>
@@ -21,7 +24,7 @@ const NavBar = () => {
             <NavLink to="/" className="">
               DASHBOARD
             </NavLink>
-            <NavLink to="/" className="">
+            <NavLink to="/our_menu" className="">
               OUR MENU
             </NavLink>
             <NavLink to="/" className="">
@@ -45,7 +48,7 @@ const NavBar = () => {
             <NavLink to="/" className="">
               DASHBOARD
             </NavLink>
-            <NavLink to="/" className="">
+            <NavLink to="/our_menu" className="">
               OUR MENU
             </NavLink>
             <NavLink to="/" className="">

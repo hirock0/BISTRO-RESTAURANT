@@ -11,7 +11,6 @@ const ContextApiProvider = ({ children }) => {
     setLoggedUser,
   };
 
-
   useEffect(() => {
     AosConfig();
   }, []);

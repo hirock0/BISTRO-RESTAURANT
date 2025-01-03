@@ -1,10 +1,12 @@
 import SectionHead from "../../SectionHead/SectionHead";
+
 const Menu = [1, 2, 3, 4, 5, 6];
-const Section_2 = () => {
+
+const FoodCard = () => {
   return (
-    <div data-aos="fade-up">
-      <div className=" flex items-center justify-center container mx-auto px-5">
-        <SectionHead title={"FROM OUR MENU"} subtitle={"---Check it out---"} />
+    <div>
+      <div className=" flex justify-center items-center px-5">
+        <SectionHead title={"TODAY'S OFFER"} subtitle={"---Don't miss---"} />
       </div>
       <div className=" container mx-auto pb-10 px-5 mt-10">
         {/* -- */}
@@ -36,8 +38,20 @@ const Section_2 = () => {
         </div>
         {/* --- */}
       </div>
+      <div className=" bg-[url(https://i.ibb.co.com/f9PZG7S/chef-service.jpg)] bg-center bg-cover bg-no-repeat h-96 max-md:h-80">
+        <div className=" container mx-auto px-5 w-full flex items-center justify-center h-full">
+          <div className=" p-5 backdrop:filter backdrop-blur-lg text-white w-5/6 h-56 text-center flex flex-col items-center justify-center">
+            <h1 className=" text-4xl max-md:text-3xl max-sm:text-2xl font-semibold">DESSERTS</h1>
+            <p className=" mt-5">
+              Lorem Ipsum has been the industry’s standard dummy text ever since
+              the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
 
-export default Section_2;
+export default FoodCard;
